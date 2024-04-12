@@ -1,0 +1,39 @@
+header {
+    background-color:yellow;
+    color:black;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    color:black;
+    padding-top: 70px;
+    text-align:left;
+  }
+  nav{
+    position:fixed;
+    top:0px;
+    width: 100%;
+    background-color:#ffffff32;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+.menu{
+    color:brown;
+    padding: 5px;
+    text-decoration:none;
+   display:inline-block;
+
+}
+.menu:hover {
+    background-color: #ddd;
+    transition: all 0.4s ease-in-out;
+
+  }
+  section {
+    padding: 20px;
+    border: 5px dotted #0e0e0e;
+    margin-bottom: 20px;
+  }
