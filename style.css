@@ -1,39 +1,122 @@
 header {
-    background-color:yellow;
-    color:black;
-    text-align: center;
+    background-color:rgba(147, 232, 86, 0.077);
+    color:rgb(17, 17, 17);
+    text-align:center;
     padding: 20px;
-    margin-bottom: 20px;
+    margin: bottom 20px;
   }
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0px;
-    color:black;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:0;
+    color:rgb(9, 9, 9);
     padding-top: 70px;
-    text-align:left;
-  }
+  /*  text-align:left;*/
+   /* background-color: rgb(252, 253, 252)*/
+   }
   nav{
     position:fixed;
-    top:0px;
+    top:0;
+    left:0;
     width: 100%;
-    background-color:#ffffff32;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+   background-color: hsl(57, 31%, 42%);
+    box-shadow: 0 0 5px rgba(15, 15, 15, 0.1);
+  }
+  div{
+    width: 100px;
+    height: 100px;
+    background-image: url("hermosura.jpg");
+    background-position:left;
+    background-size: cover;
+    margin:auto;
+
+   border-radius: 50%
+  
   }
 .menu{
-    color:brown;
+    color:rgb(14, 14, 14);
     padding: 5px;
     text-decoration:none;
    display:inline-block;
-
+   border-radius: 20px;
 }
 .menu:hover {
-    background-color: #ddd;
+    background-color:rgb(24, 122, 42);
     transition: all 0.4s ease-in-out;
-
+    border-radius: 20px;
   }
   section {
     padding: 20px;
-    border: 5px dotted #0e0e0e;
+    border: 5px dotted #8c8949;
     margin-bottom: 20px;
   }
+
+  #P acerca de mi
+  {
+    text-align: justify;
+  }
+  #habilidades ul
+  {
+    list-style: none;
+    padding: 0;
+  }
+  #habilidades ul li {
+    display: inline-block;
+    padding: 8px;
+    border:double  #164117;
+    border-radius: 16px;
+    margin-right: 10px;
+  }
+  /*#Experiencias ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #Experiencias ul li {
+    margin-bottom: 10px;
+  }*/
+
+  #proyectos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #proyectos ul li a {
+    text-decoration: none;
+    color: #0e0d0d;
+  }
+  
+  #Sociales {
+    list-style: none;
+    padding:10px;
+    margin-top:20px;
+  
+  }
+  
+  #Sociales li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    font-size: 30px;
+  }
+  
+  .fa {
+    color: #333;
+    text-decoration: none;
+    margin-left: 0px;
+  }
+  
+  footer {
+    background-color:hsl(57, 31%, 42%);
+    color: #fff; 
+    text-align: center;
+    padding: 10px;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+width: 23px;
+left: 23px;
+border-radius: 100%;}
